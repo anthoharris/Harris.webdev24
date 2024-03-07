@@ -1,16 +1,39 @@
 
 body {
-  background-color: #FFFFFF;
-  color: #666666;
-}
+  background-color: #FFFFFF
+    color: #666666;
+  font-family: Arial, Helvetica, sans-serif;
+} 
+
+header {
+  background-image: url("images/pastures.png");
+  background-position: right;
+  background-color: #00B386;
+  line-height: 400%;
+  text-indent: 1em;
+  color: #FFFFFF;
+}  
+
 h1 {
   background-color: #00B386;
   color: #FFFFFF;
-  margin-bottom: 0;
+    margin-bottom: 0;
+  font-family: Georgia, Times New Roman, serif;
+}
+h2 {
+ font-family: Georgia, Times New Roman, serif;
+}
+h3 {
+ font-family: Georgia, Times New Roman, serif;
+}
+nav {
+  font-weight: bold;
+  text decoration:
+  background-color: #70DBDB
 }
 
-nav {
-  background-color: #70DBDB;
+nav a {
+  text decoration: none
 }
 h2 {
   color: #00664D;
@@ -18,9 +41,16 @@ h2 {
 dt {
   color: #00664D;
 }
-.barn { 
+.barn {
   color: #70DBDB
+  font-style: bold;
 }
-body {
-  fontface: Arial
+#contact {
+  font-size: 90%;
+}
+footer {
+  foot-size: 75%;
+  foot-style: italic;
+  text-align: centered;
+  font-family: Georgia, Times New Roman, serif;
 }
